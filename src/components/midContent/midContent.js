@@ -11,6 +11,7 @@ export default class MidContent extends React.Component {
             <div className ="intro">
                 <span className= "introText">What is the most resilient parasite?</span>
                 <span className= "introText">an <yellow>Idea</yellow></span>
+                <span className="poppinsMedium size16 ledtSpaced">-inception (2010)</span>
             </div>
             <div className = "imageContent">
             <OtisOne />
