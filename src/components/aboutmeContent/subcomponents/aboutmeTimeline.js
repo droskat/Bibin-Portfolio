@@ -1,6 +1,6 @@
 import React from 'react';
 import './aboutmeTImeline.css';
-import Award from '../../../assets/awards.png';
+import Award from '../../../assets/bibin_photo.png';
 import presentFace from '../../../assets/bj_present.png';
 import mtechFace  from '../../../assets/bj_mdes.png';
 import btechFace  from '../../../assets/bj_engg.png';
