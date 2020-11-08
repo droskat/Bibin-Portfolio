@@ -350,7 +350,7 @@ a {
     color: white;
 }
 
-@media only screen and (max-width: 00p6x) {
+@media only screen and (max-width: 600px) {
     .SideLine,
     .SideLine3,
     .SideLine1,
