@@ -1,38 +1,468 @@
-.App {
-  text-align: center;
+.superUser {
+    margin-top: 10%;
+    color: #ff9e26
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.special {
+    color: #ff2626;
+    font-size: 16px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: 'Kanit-Black';
+    src: local('MyFont'), url(./fonts/Kanit-Black.ttf) format('opentype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.kanitBlack {
+    font-family: 'Kanit-Black';
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+    font-family: 'Kanit-BlackItalic';
+    src: local('MyFont'), url(./fonts/Kanit-BlackItalic.ttf) format('opentype');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kanitBlackItalic {
+    font-family: 'Kanit-BlackItalic';
+}
+
+@font-face {
+    font-family: 'Kanit-Bold';
+    src: local('MyFont'), url(./fonts/Kanit-Bold.ttf) format('opentype');
+}
+
+.kanitBold {
+    font-family: 'Kanit-Bold';
+}
+
+@font-face {
+    font-family: 'Kanit-BoldItalic';
+    src: local('MyFont'), url(./fonts/Kanit-BoldItalic.ttf) format('opentype');
+}
+
+.kanitBoldItalic {
+    font-family: 'Kanit-BoldItalic';
+}
+
+@font-face {
+    font-family: 'Kanit-ExtraBoldItalic';
+    src: local('MyFont'), url(./fonts/Kanit-ExtraBoldItalic.ttf) format('opentype');
+}
+
+.kanitExtraBoldItalic {
+    font-family: 'Kanit-ExtraBoldItalic';
+}
+
+@font-face {
+    font-family: 'Kanit-ExtraLight';
+    src: local('MyFont'), url(./fonts/Kanit-ExtraLight.ttf) format('opentype');
+}
+
+.kanitExtraLight {
+    font-family: 'Kanit-ExtraLight';
+}
+
+@font-face {
+    font-family: 'Kanit-ExtraLightItalic';
+    src: local('MyFont'), url(./fonts/Kanit-ExtraLightItalic.ttf) format('opentype');
+}
+
+.kanitExtraLightItalic {
+    font-family: 'Kanit-ExtraLightItalic';
+}
+
+@font-face {
+    font-family: 'Kanit-Italic';
+    src: local('MyFont'), url(./fonts/Kanit-Italic.ttf) format('opentype');
+}
+
+.kanitItalic {
+    font-family: 'Kanit-Italic';
+}
+
+@font-face {
+    font-family: 'Kanit-LightItalic';
+    src: local('MyFont'), url(./fonts/Kanit-LightItalic.ttf) format('opentype');
+}
+
+.kanitLightItalic {
+    font-family: 'Kanit-LightItalic';
+}
+
+@font-face {
+    font-family: 'Kanit-Medium';
+    src: local('MyFont'), url(./fonts/Kanit-Medium.ttf) format('opentype');
+}
+
+.kanitMedium {
+    font-family: 'Kanit-Medium';
+}
+
+@font-face {
+    font-family: 'Kanit-MediumItalic';
+    src: local('MyFont'), url(./fonts/Kanit-MediumItalic.ttf) format('opentype');
+}
+
+.kanitMediumItalic {
+    font-family: 'Kanit-MediumItalic';
+}
+
+@font-face {
+    font-family: 'Kanit-Regular';
+    src: local('MyFont'), url(./fonts/Kanit-Regular.ttf) format('opentype');
+}
+
+.kanitRegular {
+    font-family: 'Kanit-Regular';
+}
+
+@font-face {
+    font-family: 'Kanit-SemiBold';
+    src: local('MyFont'), url(./fonts/Kanit-SemiBold.ttf) format('opentype');
+}
+
+.kanitSemiBold {
+    font-family: 'Kanit-SemiBold';
+}
+
+@font-face {
+    font-family: 'Kanit-SemiBoldItalic';
+    src: local('MyFont'), url(./fonts/Kanit-SemiBoldItalic.ttf) format('opentype');
+}
+
+.kanitSemiBoldItalic {
+    font-family: 'Kanit-SemiBoldItalic';
+}
+
+@font-face {
+    font-family: 'Kanit-Thin';
+    src: local('MyFont'), url(./fonts/Kanit-Thin.ttf) format('opentype');
+}
+
+.kanitThin {
+    font-family: 'Kanit-Thin';
+}
+
+@font-face {
+    font-family: 'Kanit-ThinItalic';
+    src: local('MyFont'), url(./fonts/Kanit-ThinItalic.ttf) format('opentype');
+}
+
+.kanitThinItalic {
+    font-family: 'Kanit-ThinItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: local('MyFont'), url(./fonts/Poppins-Black.ttf) format('opentype');
+}
+
+.poppinsBlack {
+    font-family: 'Poppins-Black';
+}
+
+@font-face {
+    font-family: 'Poppins-BlackItalic';
+    src: local('MyFont'), url(./fonts/Poppins-BlackItalic.ttf) format('opentype');
+}
+
+.poppinsBlackItalic {
+    font-family: 'Poppins-BlackItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: local('MyFont'), url(./fonts/Poppins-Bold.ttf) format('opentype');
+}
+
+.poppinsBold {
+    font-family: 'Poppins-Bold';
+}
+
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: local('MyFont'), url(./fonts/Poppins-BoldItalic.ttf) format('opentype');
+}
+
+.poppinsBoldItalic {
+    font-family: 'Poppins-BoldItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: local('MyFont'), url(./fonts/Poppins-ExtraBold.ttf) format('opentype');
+}
+
+.poppinsExtraBold {
+    font-family: 'Poppins-ExtraBold';
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBoldItalic';
+    src: local('MyFont'), url(./fonts/Poppins-ExtraBoldItalic.ttf) format('opentype');
+}
+
+.poppinsExtraBoldItalic {
+    font-family: 'Poppins-ExtraBoldItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLightItalic';
+    src: local('MyFont'), url(./fonts/Poppins-ExtraLightItalic.ttf) format('opentype');
+}
+
+.poppinsExtraLightItalic {
+    font-family: 'Poppins-ExtraLightItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: local('MyFont'), url(./fonts/Poppins-ExtraLight.ttf) format('opentype');
+}
+
+.poppinsExtraLight {
+    font-family: 'Poppins-ExtraLight';
+}
+
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: local('MyFont'), url(./fonts/Poppins-Italic.ttf) format('opentype');
+}
+
+.poppinsItalic {
+    font-family: 'Poppins-Italic';
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: local('MyFont'), url(./fonts/Poppins-Light.ttf) format('opentype');
+}
+
+.poppinsLight {
+    font-family: 'Poppins-Light';
+}
+
+@font-face {
+    font-family: 'Poppins-LightItalic';
+    src: local('MyFont'), url(./fonts/Poppins-LightItalic.ttf) format('opentype');
+}
+
+.poppinsLightItalic {
+    font-family: 'Poppins-LightItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: local('MyFont'), url(./fonts/Poppins-Medium.ttf) format('opentype');
+}
+
+.poppinsMedium {
+    font-family: 'Poppins-Medium';
+}
+
+@font-face {
+    font-family: 'Poppins-MediumItalic';
+    src: local('MyFont'), url(./fonts/Poppins-MediumItalic.ttf) format('opentype');
+}
+
+.poppinsMediumItalic {
+    font-family: 'Poppins-MediumItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: local('MyFont'), url(./fonts/Poppins-Regular.ttf) format('opentype');
+}
+
+.poppinsRegular {
+    font-family: 'Poppins-Regular';
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: local('MyFont'), url(./fonts/Poppins-SemiBold.ttf) format('opentype');
+}
+
+.poppinsSemiBold {
+    font-family: 'Poppins-SemiBold';
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBoldItalic';
+    src: local('MyFont'), url(./fonts/Poppins-SemiBoldItalic.ttf) format('opentype');
+}
+
+.poppinsSemiBoldItalic {
+    font-family: 'Poppins-SemiBoldItalic';
+}
+
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: local('MyFont'), url(./fonts/Poppins-Thin.ttf) format('opentype');
+}
+
+.poppinsThin {
+    font-family: 'Poppins-Thin';
+}
+
+@font-face {
+    font-family: 'Poppins-ThinItalic';
+    src: local('MyFont'), url(./fonts/Poppins-ThinItalic.ttf) format('opentype');
+}
+
+.poppinsThinItalic {
+    font-family: 'Poppins-ThinItalic';
+}
+
+.size12 {
+    font-size: 12px;
+}
+
+.size14 {
+    font-size: 14px;
+}
+
+.size16 {
+    font-size: 16px;
+}
+
+.size18 {
+    font-size: 18px;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.size22 {
+    font-size: 22px;
+}
+
+.size24 {
+    font-size: 24px;
+}
+
+.size30 {
+    font-size: 30px;
+}
+
+a {
+    color: white;
+}
+
+@media only screen and (max-width: 00p6x) {
+    .SideLine,
+    .SideLine3,
+    .SideLine1,
+    .SideLine2 {
+        display: none;
+    }
+    .content {
+        align-self: flex-start;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        max-width: 95%;
+        text-align: left;
+    }
+    .contentEcomm {
+        align-self: flex-start;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        max-width: 95%;
+        text-align: left;
+    }
+    .contentAPI {
+        align-self: flex-start;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        max-width: 95%;
+        text-align: left;
+    }
+    .footerConditional {
+        display: none;
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 50px;
+        height: 250px;
+    }
+    .awardsLogo {
+        z-index: -1
+    }
+    .MailBoxMain {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .SkillBox {
+        overflow-x: scroll;
+        overflow-y: scroll;
+        width: 95%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 35px 0px 0px 35px;
+        margin-bottom: 100px;
+    }
+    .skillList {
+        text-align: left;
+    }
+    .SkillBoxSpecial {
+        display: none;
+    }
+    .resumeLinks {
+        margin-top: 50px;
+    }
+    .profileImage,
+    .moreInfo,
+    .faceTimeline,
+    .secondBlock,
+    .nonresponsive,
+    .otisDental {
+        display: none;
+    }
+    .firstBlock {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .rightBlock {
+        text-align: left;
+    }
+    .carousel {
+        display: none;
+    }
+    .mapStats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .spaceLeft {
+        display: none;
+    }
+    .flexRowDental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-family: 'Poppins-Regular';
+        font-size: 16px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 15px;
+    }
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      margin-top: 10px;
+    }
 }

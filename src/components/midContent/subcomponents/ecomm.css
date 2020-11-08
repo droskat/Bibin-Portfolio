@@ -1,0 +1,129 @@
+.ecomm {
+    background: url("/public/otisAPI.png");
+    width: 95%;
+    height: 510px;
+/* background-color: #cccccc; */
+    margin: 0 auto;
+    z-index: 3;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.otisOne {
+    background: url("/public/otisAPI.png");
+    width: 95%;
+    height: 510px;
+/* background-color: #cccccc; */
+    margin: 0 auto;
+    z-index: 3;
+    margin-bottom: 20px;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.otisOneComponent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+.midComponentHeader{
+    align-self: flex-start;
+    margin-top:2%;
+    font-size:20px;
+    font-weight: 600;
+    font-family:poppins bold;
+}
+
+.subtext{
+    align-self: flex-start;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.secondaryText{
+    align-self: flex-start;
+    font-size: 14px;
+    font-weight: 600;
+    color: #d3d0d0
+}
+.contentEcomm{
+    align-self: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 40%;
+    text-align: left;
+}
+.viewButton{
+    align-self: flex-start;
+}
+.viewButton{
+    margin-top: 30px;
+    height:40px;
+    width:150px;
+    background-color: #151515;
+    line-height: 35px;
+    text-align: center;
+    transition: 0.3s;
+    cursor:pointer
+}
+.viewButton:hover{
+    background-color: white;
+    color: #151515;
+    transition: 0.3s;
+}
+.caseButton{
+    display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.timeLineText::before{
+    content: '';
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -5px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    transition: background-color .3s,border-color .3s;
+    align-self: center;
+}
+.timelineHead{
+    list-style: none;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    margin-top: 50px !important;
+    padding:0px;
+    margin-left:5%;
+}
+.timeLineDate{
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  .timeLineText{
+      display:flex;
+      flex-direction:column;
+      margin-top: -6px;
+  }
+  .start{
+    margin-left: -25px;
+  }
+  .end{
+      margin-right:-35px;
+  }

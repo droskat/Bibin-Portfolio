@@ -1,0 +1,21 @@
+.footer{
+    width: calc(95% - 40px);
+    margin-left: 4.2%;
+    float:right;
+    background-color: #151515;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+svg{
+    width:60px;
+}
+.footerContainer,.footeright{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footerText{
+    padding-top:5px
+}

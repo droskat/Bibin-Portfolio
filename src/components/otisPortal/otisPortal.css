@@ -1,0 +1,73 @@
+.otisPortalP{
+    margin-left:5%;
+    height:  auto;
+    margin-bottom:50px;
+}
+.otisPortalMain{
+    margin-left:5%;
+    height:  590px;
+}
+.centerAligned{
+    margin:0 auto;
+    max-width: 550px;
+    padding-top: 200px;
+}
+.centerAlignedSub{
+    margin:0 auto;
+    max-width: 700px;
+    padding-top:  50px;
+}
+.leftAlignedSub{
+    padding-left:50px;
+    text-align: left;
+}
+.leftAligned{
+    text-align: left;
+}
+.flexRowNew{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left:50px;
+    justify-content: center;
+}
+.flexRowPortal{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 50px;
+}
+.flexRowPortal2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.flexRowResponse{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.flexRowList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.spaceLeft{
+    margin-left:70px;;
+}
+.image{
+    width:100%
+}
+.spaceright{
+    margin-left: 50px;
+}
+.midContentPortal{
+    padding-top: 60px;
+    z-index:3;
+    width: 100%;
+}

@@ -1,0 +1,113 @@
+.AchievementOne {
+    width: 70%;
+    height: auto;
+/* background-color: #cccccc; */
+    margin: 0 auto;
+    z-index: 3;
+    margin-bottom: 20px;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.SkillBox6{
+    width:400px;
+    height:400px;
+    margin-right:20px;
+    margin-bottom:100px;
+}
+.SkillBox1 {
+    width:725px;
+    height:400px;
+}
+.SkillBoxStyle1{
+    width:675px;
+    height:355px;
+    margin: 10px 10px 10px 0px;
+}
+.SkillBoxStyle{
+    width:675px;
+    height:165px;
+    margin: 10px 10px 10px 0px;
+}
+.SkillBoxStyle2 {
+    width:450px;
+    height:167px;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.skillList{
+    list-style: none;
+    padding:10px;
+}
+.progress-bar {
+    width:40%;
+    height:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: gray;
+    text-align: center;
+    white-space: nowrap;
+    background-color: white;
+    transition: width .6s ease;
+}
+.progress {
+    display: flex;
+    height: 5px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 4px;
+    background-color: gray;
+    border-radius: .25rem;
+    width: 40%;
+}
+.skillelement{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 10px 10px 0px 10px;
+}
+span.boxTitle {
+    position: relative;
+    align-self: flex-start;
+    float: left;
+    margin-top: -14px;
+    margin-left: -30px;
+    background-color: #151515;
+    padding-right: 10px;
+}
+.gyan{
+    display:flex;
+    flex-direction:column;
+}
+.MailBoxMain{
+    display:flex;
+    flex-direction: row;
+}
+.mailBox1{
+    width:675px;
+    display:flex;
+    flex-direction:column;
+    margin: 10px 10px 10px 0px;
+}
+.mailBox2{
+    width:450px;
+    display:flex;
+    flex-direction:column;
+    margin: 10px;
+}
+.achiveSub{
+    display: flex;
+    float:left;
+}
+
+.headLine{
+    color:#ff8900
+}

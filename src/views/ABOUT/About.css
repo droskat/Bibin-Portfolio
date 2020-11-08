@@ -1,0 +1,94 @@
+.App {
+    text-align: center;
+    background-color:#151515;
+    height:100;
+    color:white;
+    display: flex;
+    flex-direction: column;
+  }
+  .ParentContainer{
+    text-align: center;
+    background-color:#151515;
+    height:100%;
+    margin-top:0px;
+    width:100%;
+    position: relative;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    display:flex;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #84fe74;
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  body,.navbar{
+    background-color: #151515;
+    color:white
+  }
+  .SideLine2{
+    width:40px;
+    background-image: linear-gradient(#84fe74, #478140);
+    height: 100%;
+    margin-left:5%;
+    margin-top:10px;
+    position: absolute;
+    z-index:1;
+  
+  }
+  .sideHighlight{
+    width: calc(95% - 40px);
+    float:right;
+    margin:0 auto;
+    background-color: #151515;
+  }
+  .header-Color{
+    background-color: #151515;
+    color:white !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color:white;
+  }
+  .navbar-brand {
+    color:white !important;
+  }
+  #responsive-navbar-nav{
+    justify-content: flex-end;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1em !important;
+  }

@@ -1,0 +1,26 @@
+yellow{
+    color:rgb(245, 204, 52);
+}
+.midContent{
+    padding-top: 60px;
+    z-index:3;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    margin-top: 125px;
+    height:250px;
+}
+.imageContent{
+    display:flex;
+    flex-direction: column;
+}
+.introText{
+    font-family: Poppins-Medium;
+    font-size:30px;
+}

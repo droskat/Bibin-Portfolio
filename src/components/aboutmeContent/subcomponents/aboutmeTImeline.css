@@ -1,0 +1,125 @@
+.AboutOne {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin: 0 auto;
+    padding-right: 10%;
+}
+
+.profileImage{
+    display:flex;
+    flex-direction:row;
+    padding-top: 100px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 85%
+}
+.profileText{
+    margin-top: 130px;
+}
+.profileImageMain {
+    width: 375px;
+    height: 370px;
+}
+.moreInfo{
+    display:flex;
+    flex-direction:row;
+    padding-top: 50px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 85%
+}
+
+
+.headLine{
+    color:#ff8900
+}
+.faceTimeline{
+    display:flex;
+    flex-direction: row;
+    padding-top:200px;
+    margin-left:10%;
+
+}
+.faceIcon,.tasks,.years{
+    list-style:none;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+}
+.tasks{
+    text-align: left;
+}
+.faceList:before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #151515;
+    display: block;
+    position: absolute;
+    /* top: 10px; */
+    border-left: 3px dotted grey;
+    height: 475px;
+    margin-left: 8.2%;
+    margin-top: 115px;
+}
+.faceElement{
+    margin-bottom:50px;
+}
+.YearList{
+    margin-left:200px;
+    margin-top:30px;
+}
+.taskList{
+    margin-left:50px;
+    margin-top:30px;
+}
+.taskElement{
+    display:flex;
+    flex-direction:column;
+}
+.contactUs{
+    display:flex;
+    flex-direction:column;
+    margin-top:100px;
+}
+.firstBlock,.secondBlock{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.leftBlock,.rightBlock{
+    display:flex;
+    flex-direction:column;
+    align-items: baseline;
+}
+.contactHeader{
+    float: left;
+    display: flex;
+}
+.leftBlockSpecial{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 50%;
+}
+.greenText{
+    color: #84FE74;
+}
+.lineAdjust{
+    line-height: 2.5;
+}
+.secondBlock{
+    width:88%
+}

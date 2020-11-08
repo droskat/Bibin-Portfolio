@@ -1,0 +1,153 @@
+yellow{
+    color:rgb(245, 204, 52);
+}
+.midContent{
+    padding-top: 60px;
+    z-index:3;
+}
+.introProject{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin:0 auto;
+    margin-top: 125px;
+    height:550px;
+    width:60%
+}
+.imageContent{
+    display:flex;
+    flex-direction: column;
+}
+.imageContentProject{
+    padding:50px;
+}
+.mapStats{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contentOtisLine{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 10%;
+    margin: 0 auto;
+}
+.contents{
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+    flex: 0 1 auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;;
+
+}
+.subHeader{
+    color: rgb(245, 204, 52);;
+    font-weight:600px;
+}
+.carouselItem{
+    height:390px;
+    background-color:#4e4e4e;
+}
+.carousel {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;
+    background-color:#4e4e4e;
+    margin-top: 50px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4%;
+    background-color: #9f9f9f;
+    margin: 140px 0px 140px 0px;
+    /* color: white; */
+    /* height: 27%; */
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.carousel-caption {
+    position: absolute;
+    right: 10%;
+    top: 20px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.centerHeader{
+    align-self: center;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    color: rgb(245, 204, 52);;
+    font-size: 1.5em;
+    margin-top:10px;
+}
+.colouredHeader{
+    color: rgb(245, 204, 52);;
+}
+.colouredBackground{
+    background-color: rgb(245, 204, 52);
+    padding: 10px;
+    color: black;
+}
+.coloredText{
+    background-color: rgb(245, 204, 52);
+    padding: 2px 0px 2px 0px;
+    color: black;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.flexRowAround{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around;
+    margin-top:40px;
+}
+.flexColumn{
+    margin-left:10px;
+    margin-right:20px;
+}
+.listContent{
+    text-align: left;
+}
+.centered{
+    align-self: center;
+}
+.centeredMain{
+    align-self: center;
+    margin-top: 70px;
+    line-height: 2;
+}
+.leftlist,.rightlist{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.spoaced{
+    margin-left:30px;
+}

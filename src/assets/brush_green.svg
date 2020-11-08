@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="61.5" viewBox="0 0 65 61.5">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.628" gradientTransform="matrix(-0.533, 0.846, -0.774, -0.488, 1.154, 0.321)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#868686"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#294e24"/>
+      <stop offset="1" stop-color="#83fd73"/>
+    </linearGradient>
+    <filter id="Rectangle_2" x="0" y="0" width="65" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4175" data-name="Group 4175" transform="translate(-53.761 -2156)">
+    <g id="noun_Paint_Roller_152680" data-name="noun_Paint Roller_152680" transform="translate(59 2167)" style="isolation: isolate">
+      <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+        <path id="Path_1" data-name="Path 1" d="M62.26,16.912H60.216v-2.14a3.348,3.348,0,0,0-3.347-3.348H18.552A3.348,3.348,0,0,0,15.2,14.772V16.9h-2.65s-5.316.239-5.316,5.459V28.82s-.1,5.411,6.034,5.411h16.9a3.051,3.051,0,0,1,3.48,3.3v.383H30.807a1.564,1.564,0,0,0,0,3.129h.562q-.02.435-.019.958V58.412a3.511,3.511,0,1,0,7.023,0V41.046h.543a1.564,1.564,0,1,0,0-3.129H36.241V36.673s-.382-5.059-5.059-5.059H13.129a3.16,3.16,0,0,1-3.208-3.225V22.307A2.416,2.416,0,0,1,12.6,19.578h2.6V21.32a3.712,3.712,0,0,0,3.4,3.571H56.925a3.7,3.7,0,0,0,3.292-3.571V19.593h2.044a.958.958,0,0,0,.958-.958v-.766A.959.959,0,0,0,62.26,16.912Z" transform="translate(-7.239 -11.424)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 53.76, 2156)" filter="url(#Rectangle_2)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="47" height="14" rx="5" transform="translate(12 11)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
