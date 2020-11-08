@@ -27,7 +27,7 @@ export default class OtisPortal extends React.Component {
                 <h3 className="centerAligned poppinsBold size18">Website for developers to access API for a major elevator manufacturer</h3>
                 <h5 className="centerAlignedSub poppinsLight size14">Visually update and improve the user experience of an existing API portal page while aligning the brand guidelines and branding. Also, giving it a clean visual feel as most modern websites</h5>
             </div>
-            <div className ="otisPortalP nonresponsive flexColumn" style= {{backgroundColor:`#C28F6D`}}>
+            <div className ="otisPortalP nonresponsive flexColumn" style= {{backgroundColor:`#CFA152`}}>
                 <div className ="flexColumn" >
                     <h3 className="centerAlignedSub poppinsBold size30">Initial Screens</h3>
                     <figure>
