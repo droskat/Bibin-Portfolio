@@ -119,10 +119,10 @@ export default class AboutmeTimeline extends React.Component {
             <div className="rightBlock poppinsMedium size16">
               <span>Social Media:</span>
               <br/>
-              <span className="lineAdjust"><img alt="img" src={linkedin}/><a href="https://www.linkedin.com/in/bibin-jose-63051776" target="_blank">&nbsp; bibin-jose-63051776</a></span>
-              <span className="lineAdjust"> <img alt="img" src={behance}/><a href="https://www.behance.net/bibinj80a9fd" target="_blank"> &nbsp; bibinj80a9fd</a></span>
-              <span className="lineAdjust"><img alt="img" src={twitter}/><a href="https://www.twitter.com/Bibin14709830" target="_blank"> &nbsp; Bibin14709830</a></span>
-              <span className="lineAdjust"><img alt="img" src={insta}/><a href="https://www.instagram.com/Bibinjose444" target="_blank"> &nbsp; Bibinjose444</a></span>
+              <span className="lineAdjust"><img alt="img" src={linkedin}/><a href="https://www.linkedin.com/in/bibin-jose-63051776" target="_blank" rel="noopener noreferrer">&nbsp; bibin-jose-63051776</a></span>
+              <span className="lineAdjust"> <img alt="img" src={behance}/><a href="https://www.behance.net/bibinj80a9fd" target="_blank" rel="noopener noreferrer"> &nbsp; bibinj80a9fd</a></span>
+              <span className="lineAdjust"><img alt="img" src={twitter}/><a href="https://www.twitter.com/Bibin14709830" target="_blank" rel="noopener noreferrer"> &nbsp; Bibin14709830</a></span>
+              <span className="lineAdjust"><img alt="img" src={insta}/><a href="https://www.instagram.com/Bibinjose444" target="_blank" rel="noopener noreferrer"> &nbsp; Bibinjose444</a></span>
             </div>
           </div>
         </div>

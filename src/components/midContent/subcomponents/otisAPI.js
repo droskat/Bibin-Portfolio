@@ -1,7 +1,6 @@
 import React from 'react';
 import './otisAPI.css';
 import Logo from '../../../assets/otisAPI.png';
-import Dental from '../../../views/DENTAL/dental';
 
 export default class OtisAPI extends React.Component {
   render() {
