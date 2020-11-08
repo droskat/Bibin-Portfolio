@@ -3,10 +3,21 @@ import './midContent.css';
 import OtisOne from "./subcomponents/otisOne";
 import OtisAPI from "./subcomponents/otisAPI";
 import Ecomm from './subcomponents/ecomm';
-
+import Loader from '../../assets/brush_green.gif'
 export default class MidContent extends React.Component {
+constructor() {
+  super();
+    this.state = { isLoading: true }
+}
+
+componentDidMount() {
+  console.log(this.state.isLoading)
+    this.setState({isLoading: false})
+}
+
   render() {
     return (
+      this.state.isLoading ? <div className="pageLoader"><figure><img src={Loader}/></figure></div> :
         <div className= "midContent">
             <div className ="intro">
                 <span className= "introText">What is the most resilient parasite?</span>
