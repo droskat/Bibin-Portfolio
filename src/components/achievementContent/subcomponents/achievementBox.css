@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap:wrap;
 }
 .SkillBox6{
@@ -40,10 +40,6 @@
     flex-direction:column;
     justify-content: center;
 }
-.skillList{
-    list-style: none;
-    padding:10px;
-}
 span.boxTitle {
     position: relative;
     align-self: flex-start;
@@ -55,11 +51,18 @@ span.boxTitle {
 }
 .gyan{
     display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.gyan2{
+    display:flex;
     flex-direction:column;
 }
 .MailBoxMain{
-    display:flex;
+    display: flex;
+    width: 100%;
     flex-direction: row;
+    justify-content: center;
 }
 .mailBox1{
     width:675px;
@@ -80,4 +83,10 @@ span.boxTitle {
 
 .headLine{
     color:#ff8900
+}
+.flexRowAchieve {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }

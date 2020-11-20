@@ -10,15 +10,20 @@ export default class AchievementBox extends React.Component {
   render() {
       return(
     <div className = "AchievementOne">
-        <div className= "SkillBox6" style= {{backgroundImage:`url(${Award})`}}>
-        </div>
-        <div className= "SkillBox1" style= {{backgroundImage:`url(${AwardStage})`}}>
+        <div className="flexRowAchieve">
+            <div className= "SkillBox6" style= {{backgroundImage:`url(${Award})`}}>
+            </div>
+            <div className= "SkillBox1" style= {{backgroundImage:`url(${AwardStage})`}}>
+            </div>
         </div>
 
         <div className= "gyan">
+          <div className= "gyan2">
             <span className="achiveSub headLine poppinsBold size18">User Feedback & Client Appreciation</span>
             <span className="achiveSub poppinsMedium size14">For a Designer no award can match the delight that comes from the end user describing how their project made their life easier and how they loved using it</span>
+          </div>
         </div>
+
         <div className="MailBoxMain">
             <div className= "mailBox1">
               <div className= "SkillBoxStyle1" style= {{backgroundImage:`url(${email1})`}}>

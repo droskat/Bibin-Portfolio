@@ -14,7 +14,6 @@
 }
 .SkillBox {
     width: 90%;
-    height: 215px;
     border: 1px solid #c9c9c9;
     margin-right: 130px;
     margin-bottom: 200px;
@@ -25,7 +24,6 @@
 .SkillBoxSpecial2
     {
     width: 90%;
-    height: 215px;
     border: 1px solid #c9c9c9;
     margin-right: 130px;
     margin-bottom: 200px;
@@ -35,19 +33,14 @@
     display:flex;
 }
 .SkillBoxSpecial {
-    width:440px;
-    height:300px;
     margin-right: 130px;
-    margin-bottom: 200px;
     margin-left: 100px;
 }
 .skillList{
-    list-style: none;
-    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    width: 100%;
 }
 .progress-bar {
     width:40%;

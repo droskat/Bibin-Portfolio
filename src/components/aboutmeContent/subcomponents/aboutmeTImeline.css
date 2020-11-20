@@ -32,6 +32,7 @@
     flex-direction: row;
     padding-top:200px;
     margin-left:10%;
+    width: 800px;
 
 }
 .faceIcon,.tasks,.years{
@@ -56,7 +57,7 @@
     /* top: 10px; */
     border-left: 3px dotted grey;
     height: 475px;
-    margin-left: 8.2%;
+    margin-left: 140px;
     margin-top: 115px;
 }
 .faceElement{
