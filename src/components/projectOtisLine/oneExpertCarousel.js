@@ -7,6 +7,10 @@ import CustomTabs from '../../assets/otisline/Customizable_tabs.png'
 import RealView from '../../assets/otisline/realtime_view.png';
 import SPA from '../../assets/otisline/single-pagelayout.png';
 import Timelines from '../../assets/otisline/timeline.png';
+import Contrast from '../../assets/otisline/contrast.png';
+import Form from '../../assets/otisline/form.png';
+import Skeys from '../../assets/otisline/shortcut_keys.png';
+import Search from '../../assets/otisline/search.png';
 export default class OtisLineCarousel extends React.Component {
     
     
@@ -104,6 +108,46 @@ status of the equipment and take necessary action.</p>
           />
       
           <Carousel.Caption>
+            <h3 className="colouredHeader poppinsBold size16">Design for Accessibility</h3>
+            <div className="flexRow">
+              <div className="flexColumnCarousel"> 
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">form as well color change for different machine status</p>
+                    <figure>
+                    <img alt="img"  src = {Form}/>
+                  </figure>
+                </div>
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">Keyboard Navigation Support</p>
+                    <figure>
+                    <img alt="img"  src = {Skeys}/>
+                  </figure>
+                </div>
+              </div>
+              <div className="flexColumnCarousel">
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">Adding Enough Color Contrast</p>
+                    <figure>
+                    <img alt="img"  src = {Contrast}/>
+                  </figure>
+                </div>
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">Instructions with form fields and inputs</p>
+                    <figure>
+                    <img alt="img"  src = {Search}/>
+                  </figure>
+                </div>
+              </div>  
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <span
+            className="d-block carouselItem"
+            alt="Ninth slide"
+          />
+      
+          <Carousel.Caption>
             <h3 className="colouredHeader poppinsBold size16">Key Design Innovations</h3>
             <div className="flexRow">
                 <figure>
@@ -121,7 +165,7 @@ status of the equipment and take necessary action.</p>
         <Carousel.Item>
           <span
             className="d-block carouselItem"
-            alt="Ninth slide"
+            alt="Tenth slide"
           />
       
           <Carousel.Caption>
@@ -142,7 +186,7 @@ status of the equipment and take necessary action.</p>
         <Carousel.Item>
           <span
             className="d-block carouselItem"
-            alt="Tenth slide"
+            alt="Eleventh slide"
           />
       
           <Carousel.Caption>
@@ -164,7 +208,7 @@ status of the equipment and take necessary action.</p>
         <Carousel.Item>
           <span
             className="d-block carouselItem"
-            alt="Eleventh slide"
+            alt="Twelvth slide"
           />
       
           <Carousel.Caption>
@@ -176,7 +220,7 @@ status of the equipment and take necessary action.</p>
         <Carousel.Item>
           <span
             className="d-block carouselItem"
-            alt="Eleventh slide"
+            alt="thirteenth slide"
           />
       
           <Carousel.Caption>
