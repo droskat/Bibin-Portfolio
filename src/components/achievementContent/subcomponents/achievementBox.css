@@ -44,36 +44,6 @@
     list-style: none;
     padding:10px;
 }
-.progress-bar {
-    width:40%;
-    height:5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-    color: gray;
-    text-align: center;
-    white-space: nowrap;
-    background-color: white;
-    transition: width .6s ease;
-}
-.progress {
-    display: flex;
-    height: 5px;
-    overflow: hidden;
-    line-height: 0;
-    font-size: 4px;
-    background-color: gray;
-    border-radius: .25rem;
-    width: 40%;
-}
-.skillelement{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: flex-start;
-    padding: 10px 10px 0px 10px;
-}
 span.boxTitle {
     position: relative;
     align-self: flex-start;
