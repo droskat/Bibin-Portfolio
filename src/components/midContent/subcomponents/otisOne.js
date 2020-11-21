@@ -1,6 +1,7 @@
 import React from 'react';
 import './otisOne.css';
-import Logo from '../../../assets/otisONE.png';
+import Logo from '../../../assets/OtisONE.png';
+import OO from '../../../assets/otis_one_nasscom.png';
 
 export default class OtisOne extends React.Component {
   render() {
@@ -34,6 +35,11 @@ export default class OtisOne extends React.Component {
             <div className = "viewButton">
                 <span className= "caseButton poppinsMedium size14" href= "/Projects/1"onClick={handleClick}>View Case Study</span>
             </div>
+        </div>
+        <div className="midComponentImg">
+            <figure>
+                <img alt="img" src={OO}/>
+            </figure>
         </div>
     </div>
       )

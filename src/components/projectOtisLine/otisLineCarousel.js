@@ -151,46 +151,6 @@ help  users pin point anomalies especially on graphs and charts.</li>
         <Carousel.Item>
           <span
             className="d-block carouselItem"
-            alt="Seventh slide"
-          />
-      
-          <Carousel.Caption>
-            <h3 className="colouredHeader poppinsBold size16">Design for Accessibility</h3>
-            <div className="flexRow">
-              <div className="flexColumnCarousel"> 
-                <div className="flexColumnCarousel">
-                    <p className= "listContent poppinsMedium size16">form as well color change for different machine status</p>
-                    <figure>
-                    <img alt="img"  src = {Form}/>
-                  </figure>
-                </div>
-                <div className="flexColumnCarousel">
-                    <p className= "listContent poppinsMedium size16">Keyboard Navigation Support</p>
-                    <figure>
-                    <img alt="img"  src = {Skeys}/>
-                  </figure>
-                </div>
-              </div>
-              <div className="flexColumnCarousel">
-                <div className="flexColumnCarousel">
-                    <p className= "listContent poppinsMedium size16">Adding Enough Color Contrast</p>
-                    <figure>
-                    <img alt="img"  src = {Contrast}/>
-                  </figure>
-                </div>
-                <div className="flexColumnCarousel">
-                    <p className= "listContent poppinsMedium size16">Instructions with form fields and inputs</p>
-                    <figure>
-                    <img alt="img"  src = {Search}/>
-                  </figure>
-                </div>
-              </div>  
-            </div>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <span
-            className="d-block carouselItem"
             alt="Eight slide"
           />
       
@@ -290,6 +250,46 @@ help  users pin point anomalies especially on graphs and charts.</li>
                       also allows for experts even with lower experience to have the  same level of accuracy.</p>
                 </div>
                 
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <span
+            className="d-block carouselItem"
+            alt="Eighth slide"
+          />
+      
+          <Carousel.Caption>
+            <h3 className="colouredHeader poppinsBold size16">Design for Accessibility</h3>
+            <div className="flexRow">
+              <div className="flexColumnCarousel"> 
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">form as well color change for different machine status</p>
+                    <figure>
+                    <img alt="img"  src = {Form}/>
+                  </figure>
+                </div>
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">Keyboard Navigation Support</p>
+                    <figure>
+                    <img alt="img"  src = {Skeys}/>
+                  </figure>
+                </div>
+              </div>
+              <div className="flexColumnCarousel">
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">Adding Enough Color Contrast</p>
+                    <figure>
+                    <img alt="img"  src = {Contrast}/>
+                  </figure>
+                </div>
+                <div className="flexColumnCarousel">
+                    <p className= "listContent poppinsMedium size16">Instructions with form fields and inputs</p>
+                    <figure>
+                    <img alt="img"  src = {Search}/>
+                  </figure>
+                </div>
+              </div>  
             </div>
           </Carousel.Caption>
         </Carousel.Item>

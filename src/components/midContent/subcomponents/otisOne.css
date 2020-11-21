@@ -90,3 +90,9 @@
       margin-top: 40px;
       margin-left: 50px;
   }
+  .midComponentImg{
+      display:flex;
+      justify-content: center;
+      margin-right:5%;
+      align-items: center;
+  }

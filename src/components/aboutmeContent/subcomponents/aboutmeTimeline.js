@@ -82,8 +82,8 @@ export default class AboutmeTimeline extends React.Component {
             <div className="rightBlockNew poppinsMedium size16">
             <span><img alt="img" src={mail}/> E-mail</span>
             <br/>
-            <span className="flexRowAbout">Work&nbsp;:&nbsp;<p className="poppinsLight"> thenerdwithapaintbrush@gmail.com</p></span>
-            <span className="flexRowAbout">Personal:&nbsp;<p className="poppinsLight"> bibinj80@gmail.com</p></span>
+            <span className="flexRowAbout">Work&nbsp;:&nbsp;<p className="poppinsLight"><a className="footerText" rel="noopener noreferrer" target="_blank" href="mailto:nerdwithapaintbrush@gmail.com"> thenerdwithapaintbrush@gmail.com</a></p></span>
+            <span className="flexRowAbout">Personal:&nbsp;<p className="poppinsLight"><a className="footerText"  rel="noopener noreferrer" target="_blank" href="mailto:bibinj80@gmail.com"> bibinj80@gmail.com</a></p></span>
             </div>
           </div>
           <div className="secondBlock poppinsMedium size16">
@@ -110,10 +110,10 @@ export default class AboutmeTimeline extends React.Component {
               <span>Social Media:</span>
               <br/>
               <div className="rightBlockSpecial poppinsMedium size16">
-                <span className="lineAdjust"><a href="https://www.linkedin.com/in/bibin-jose-63051776" target="_blank" rel="noopener noreferrer"><img alt="img" src={linkedin}/></a></span>
-                <span className="lineAdjust"><a href="https://www.behance.net/bibinj80a9fd" target="_blank" rel="noopener noreferrer"><img alt="img" src={behance}/></a></span>
-                <span className="lineAdjust"><a href="https://www.twitter.com/Bibin14709830" target="_blank" rel="noopener noreferrer"><img alt="img" src={twitter}/></a></span>
-                <span className="lineAdjust"><a href="https://www.instagram.com/Bibinjose444" target="_blank" rel="noopener noreferrer"><img alt="img" src={insta}/></a></span>
+                <span className="lineAdjust"><a href="https://www.linkedin.com/in/bibin-jose-63051776" target="_blank" rel="noopener noreferrer"><img className="SMLogo" alt="img" src={linkedin}/></a></span>
+                <span className="lineAdjust"><a href="https://www.behance.net/bibinj80a9fd" target="_blank" rel="noopener noreferrer"><img className="SMLogo" alt="img" src={behance}/></a></span>
+                <span className="lineAdjust"><a href="https://www.twitter.com/Bibin14709830" target="_blank" rel="noopener noreferrer"><img className="SMLogo" alt="img" src={twitter}/></a></span>
+                <span className="lineAdjust"><a href="https://www.instagram.com/Bibinjose444" target="_blank" rel="noopener noreferrer"><img className="SMLogo" alt="img" src={insta}/></a></span>
               </div>
             </div>
           </div>

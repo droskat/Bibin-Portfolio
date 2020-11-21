@@ -22,29 +22,29 @@ export default class SkillBox extends React.Component {
         <div className= "SkillBox">   
         <span className="boxTitle poppinsMedium size16">Design Tools</span> 
           <ol className= "skillList poppinsMedium size14">
-            <li className="skillelement"><img src= {XD}></img><div className="skillelement2"><span>Adobe XD</span>
+            <li className="skillelement"><img alt="logo" src= {XD}></img><div className="skillelement2"><span>Adobe XD</span>
             <ProgressBar now={85}  /></div>
             </li>
-            <li className="skillelement"><img src= {PS}></img><div className="skillelement2"><span>Adobe Photoshop</span>
+            <li className="skillelement"><img alt="logo" src= {PS}></img><div className="skillelement2"><span>Adobe Photoshop</span>
             <ProgressBar now={90}  /></div>
             </li>
-            <li className="skillelement"><img src= {AL}></img><div className="skillelement2"><span>Adobe Illustrator</span>
+            <li className="skillelement"><img alt="logo" src= {AL}></img><div className="skillelement2"><span>Adobe Illustrator</span>
             <ProgressBar now={40}  /></div>
             </li>
-            <li className="skillelement"><img src= {IV}></img><div className="skillelement2"><span>Invision</span>
+            <li className="skillelement"><img alt="logo" src= {IV}></img><div className="skillelement2"><span>Invision</span>
             <ProgressBar now={60}  /></div>
             </li>
-            <li className="skillelement"><img src= {SK}></img><div className="skillelement2"><span>Sketch</span>
+            <li className="skillelement"><img alt="logo" src= {SK}></img><div className="skillelement2"><span>Sketch</span>
             <ProgressBar now={15}  /></div>
             </li>
-            <li className="skillelement"><img src= {AE}></img><div className="skillelement2"><span>Adobe After Effects</span>
+            <li className="skillelement"><img alt="logo" src= {AE}></img><div className="skillelement2"><span>Adobe After Effects</span>
             <ProgressBar now={50}  /></div>
             </li>
-            <li className="skillelement"><img src= {Max}></img><div className="skillelement2"><span>3Ds Max</span>
+            <li className="skillelement"><img alt="logo" src= {Max}></img><div className="skillelement2"><span>3Ds Max</span>
             <ProgressBar now={15}  /></div>
             </li>
             
-            <li className="skillelement"><img src= {KS}></img><div className="skillelement2"><span>Keyshot</span>
+            <li className="skillelement"><img alt="logo" src= {KS}></img><div className="skillelement2"><span>Keyshot</span>
             <ProgressBar now={90}  /></div>
             </li>
           </ol>
@@ -52,15 +52,15 @@ export default class SkillBox extends React.Component {
         <div className= "SkillBox">
         <span className="boxTitle poppinsMedium size16">Productivity Tools</span> 
           <ol className= "skillList poppinsMedium size14">
-          <li className="skillelement"><img src= {MSO}></img><div className="skillelement2"><span>MS Office</span></div>
+          <li className="skillelement"><img alt="logo" src= {MSO}></img><div className="skillelement2"><span>MS Office</span></div>
           </li>
-          <li className="skillelement"><img src= {DO}></img><div className="skillelement2"><span>MS Azure Devops</span></div>
+          <li className="skillelement"><img alt="logo" src= {DO}></img><div className="skillelement2"><span>MS Azure Devops</span></div>
           </li>
-          <li className="skillelement"><img src= {SL}></img><div className="skillelement2"><span>Slack</span></div>
+          <li className="skillelement"><img alt="logo" src= {SL}></img><div className="skillelement2"><span>Slack</span></div>
           </li>
-          <li className="skillelement"><img src= {MTO}></img><div className="skillelement2"><span>MS Teams</span></div>
+          <li className="skillelement"><img alt="logo" src= {MTO}></img><div className="skillelement2"><span>MS Teams</span></div>
           </li>
-          <li className="skillelement"><img src= {WE}></img><div className="skillelement2"><span>WebEX</span></div>
+          <li className="skillelement"><img alt="logo" src= {WE}></img><div className="skillelement2"><span>WebEX</span></div>
           </li>
           </ol>
         </div>

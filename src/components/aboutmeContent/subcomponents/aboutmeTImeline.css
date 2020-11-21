@@ -132,3 +132,6 @@
     display: flex;
     flex-direction: row;
 }
+.SMLogo:hover{
+    filter: brightness(0.5);
+}

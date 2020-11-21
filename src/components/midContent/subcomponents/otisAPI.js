@@ -1,6 +1,7 @@
 import React from 'react';
 import './otisAPI.css';
-import Logo from '../../../assets/otisAPI.png';
+import Logo from '../../../assets/OTISAPI.png';
+import OO from '../../../assets/Api_portal_page.png';
 
 export default class OtisAPI extends React.Component {
   render() {
@@ -35,6 +36,11 @@ export default class OtisAPI extends React.Component {
             <div className = "viewButton">
                 <span className= "caseButton poppinsMedium size14" href= "/Projects/2"onClick={handleClick}>View Case Study</span>
             </div>
+        </div>
+        <div className="midComponentImg">
+            <figure>
+                <img alt="img" src={OO}/>
+            </figure>
         </div>
     </div>
       )

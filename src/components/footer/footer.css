@@ -19,3 +19,6 @@ svg{
 .footerText{
     padding-top:5px
 }
+.footerText:hover{
+    color: grey;
+}

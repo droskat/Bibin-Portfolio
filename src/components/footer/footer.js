@@ -19,7 +19,7 @@ export default class Footer extends React.Component {
         <span className="footerText footerConditional">The Nerd with a paint Brush&copy;</span>
       </div>
       <div className = "footerRight">
-      <a className="footerText" href="mailto:nerdwithapaintbrush@gmail.com">
+      <a className="footerText" rel="noopener noreferrer" target="_blank" href="mailto:nerdwithapaintbrush@gmail.com">
       nerdwithapaintbrush@gmail.com</a>
       </div>
     </div>
