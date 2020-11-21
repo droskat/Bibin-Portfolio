@@ -1,6 +1,6 @@
 import React from 'react';
 import './otisOne.css';
-import Logo from '../../../assets/OtisONE.png';
+import Logo from '../../../assets/OtisONE_2.png';
 import OO from '../../../assets/otis_one_nasscom.png';
 
 export default class OtisOne extends React.Component {
