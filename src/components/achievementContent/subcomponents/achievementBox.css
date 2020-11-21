@@ -57,6 +57,7 @@ span.boxTitle {
 .gyan2{
     display:flex;
     flex-direction:column;
+    text-align: left;
 }
 .MailBoxMain{
     display: flex;

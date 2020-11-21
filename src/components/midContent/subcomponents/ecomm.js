@@ -15,7 +15,7 @@ export default class Ecomm extends React.Component {
         </div>
         <div className = "subtext">
             <span className= "poppinsBold size18">E-COMMERCE OPPORTUNITY FOR DENTAL SUPPLIES MAJOR</span>
-            <span className= "secondaryText poppinsSemiBold size14">Role: User Journey Mapping</span>
+            <span className= "secondaryText poppinsSemiBold size14">Role: Design Thinking Consultant</span>
         </div>
         <div className = "contentEcomm">
             <span className= "poppinsLight size14">Consult several dentists and endors across India o understand the dental supply business model and evaluate the possibility fot 'direct to customer' online sales model for a major dental supply company</span>

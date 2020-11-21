@@ -16,7 +16,7 @@ export default class OtisAPI extends React.Component {
             </div>
             <div className = "subtext">
                 <span className=" poppinsBold size18">WEBSITE FOR DEVELOPERS TO ACCESS APIs FOR a major Elevator Manufacturer</span>
-                <span className= "secondaryText poppinsSemiBold size14">Role: UX Designer</span>
+                <span className= "secondaryText poppinsSemiBold size14">Role: UI/UX Designer</span>
             </div>
             <div className = "contentAPI">
                 <span className= "poppinsLight size14">Visually update and improve the user experience of the existing API portal page while aligning to the brand guidelines and branding. Also, giving it a clean visual feel as most modern websites.</span>

@@ -15,7 +15,7 @@ export default class OtisOne extends React.Component {
             </div>
             <div className = "subtext">
                 <span className="poppinsBold size18">DASHBOARD FOR CONNECTED ELEVATORS AND ESCALATORS</span>
-                <span className= "secondaryTextGrey poppinsSemiBold">Role: UX Designer</span>
+                <span className= "secondaryTextGrey poppinsSemiBold">Role: UI/UX Designer</span>
             </div>
             <div className = "content">
                 <span className= "poppinsLight size14">Conceptualise and design next generation dashboard for realtime monitoring, analysing andpredictive servicing for next generation connected OTIS Elevators and Escalators</span>
