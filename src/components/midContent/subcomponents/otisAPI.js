@@ -1,6 +1,6 @@
 import React from 'react';
 import './otisAPI.css';
-import Logo from '../../../assets/OTISAPI.png';
+import Logo from '../../../assets/OTISAPI_2.png';
 import OO from '../../../assets/Api_portal_page.png';
 
 export default class OtisAPI extends React.Component {
